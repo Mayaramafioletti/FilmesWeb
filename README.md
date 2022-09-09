@@ -3,7 +3,7 @@
 ## Entrega Checkpoint 2 
 
 ### Grupo Dinos :t-rex: :
-Agnes Ruescas, 
+Agnes Ruescas,  
 José Leles,  
-Kauan Cleto e 
+Kauan Cleto e  
 Mayara Mafioletti
