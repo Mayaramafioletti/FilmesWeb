@@ -1,9 +1,9 @@
 # FilmesWeb
 
-Entrega Checkpoint 2 
+## Entrega Checkpoint 2 
 
-Grupo Dinos :t-rex: :
-Agnes Ruescas
-José Leles 
-Kauan Cleto
+### Grupo Dinos :t-rex: :
+Agnes Ruescas, 
+José Leles,  
+Kauan Cleto e 
 Mayara Mafioletti
