@@ -45,16 +45,17 @@ a{
 }
 
 #hero{
-    height: 12.5rem;
+    height: 100;
     width: 100%;
     position: relative;
+    display: flex;
 }
 
 #hero::before{
     content: '';
     height: 100%;
     width: 100%;
-    background-image: url('https://www.themoviedb.org/t/p/original/725WE0Qb1BbUF7aGvjiQqzzffpg.jpg');
+    background-image: url('https://www.themoviedb.org/t/p/original/o0s4XsEDfDlvit5pDRKjzXR4pp2.jpg');
     position: absolute;
     background-size: cover;
     z-index: -1;
@@ -63,7 +64,7 @@ a{
 }
 
 #hero p{
-    padding: 2rem;
+    padding-top: 3rem;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -73,49 +74,60 @@ a{
     color: var(--cor-texto);
     text-shadow: 0px 4px 4px #000;
 }
+#hero img{
+    border-radius: 10px;
+    width: 230px;
+    margin: 50px;
+}
 h2{
     color: var(--cor-texto);
+    margin: 40px;
     border-left: var(--cor-primaria) 5px solid;
-
 }
 .card{
     display: flex;
     flex-direction: column;
     background-color: var(--bg-destaque);
-    width: 120px;
+    width: 210px;
+    height: 200px;
     border-radius: 6px;
     padding-bottom: 5px;
     margin: .8rem;
-}
-.card img{
-    border-radius: 6px;
-    width: 120px;
-    
+    position: relative;
 }
 
-.card p{
+
+.card .nome{
     margin: .3rem 0;
     color: var(--cor-texto);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
-.card .nota{
-    display: flex;
+.card p{
     align-items: center;
-    color: var(--cor-texto);
-    justify-content: center;
 }
-.card .estrela{
-    color: gold;
-}
+
 .filmes{
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-grid;
+    align-items: center;
+    padding-top: 40px;
+}
+.filmes img{
+    border-radius: 100%;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .botao{
     background-color: var(--cor-primaria);
     padding: 5px 20px 5px 15px;
     border-radius: 5px;
-    margin: 0 0.7rem;
+    margin: 0 .5rem 0 2.5rem ;
     transition: box-shadow 0.5s ease-in-out;
+    
 }
 .botao:hover{
     box-shadow: 0 0 10px #FFF;
